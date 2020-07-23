@@ -1,0 +1,112 @@
+#app {
+  display: flex;
+}
+
+#movies {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.movie {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  margin: 25px auto;
+  transition: all .2s ease-in-out;
+}
+
+.movie:hover {
+  box-shadow: 1px 1px 5px #ccc;
+}
+
+.movie .cover img {
+  width: 150px;
+}
+
+.movie .description {
+  padding: 20px 40px;
+}
+
+.movie .description h1 span {
+  font-size: small;
+}
+
+.movie .description button {
+  position: relative;
+  float: right;
+}
+
+#more-movies {
+  display: block;
+  width: 90%;
+  margin: 20px auto;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background: transparent;
+  color: #8787fa;
+  transition: all .2s ease-in-out;
+}
+
+button:hover {
+  border: none;
+  background: #8787fa;
+  color: #ffffff;
+}
+
+#movie {
+  min-width: 500px;
+}
+
+.single-movie {
+  padding: 20px;
+  position: fixed;
+  max-width: 98vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transition: all .2s ease-in-out;
+}
+
+.single-movie .cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+}
+
+.single-movie .cover img {
+  height: 350px;
+  margin: 20px auto;
+  box-shadow: 6px 5px 6px #ccc;
+}
+
+.companies {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.companies img {
+  width: 100px;
+}
+
+.rating-container {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 5px;
+  border: solid .5px #cccccc;
+}
+
+.rating {
+  display: block;
+  height: 5px;
+  background-color: #8787fa;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
