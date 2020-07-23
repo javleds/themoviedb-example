@@ -3,7 +3,6 @@
   const Api = {
     baseUrl: 'https://api.themoviedb.org/3',
     apiKey: '',
-    lang: 'es',
   
     parametersToQueryString: function(parameters) {
       let query = '';
