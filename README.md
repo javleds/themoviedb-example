@@ -15,3 +15,8 @@ This exaple project shows how to use vanilla javascript to fetch and render a li
     apiKey: 'PLACE_YOUR_API_KEY_HERE',
 ```
 3. Open the `index.html` file with your browser.
+
+
+## Demo
+
+![](img/demo.gif)

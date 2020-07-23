@@ -2,7 +2,7 @@
 
   const Api = {
     baseUrl: 'https://api.themoviedb.org/3',
-    apiKey: '',
+    apiKey: '135df516df7af8dcac05099ac1b522aa',
   
     parametersToQueryString: function(parameters) {
       let query = '';
